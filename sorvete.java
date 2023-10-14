@@ -11,7 +11,7 @@ public class sorvete {
         Scanner scanner = new Scanner (System.in);
         sabor = scanner.nextInt();
 
-        if (sabor == 1){
+          if (sabor == 1 || sabor == 2){
             System.out.println("Porfavor, escolha a quantidade de bolas de 1 ate 5.");
                   quantidade = scanner.nextInt();    
                   
